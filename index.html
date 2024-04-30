@@ -1,0 +1,733 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Sen:wght@400..800&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js" defer></script>
+    
+    <title>allbirds</title>
+</head>
+<body>
+    <section id="header-top">
+        <div class="header_top_text">
+            <div id="phrase1" class="phrase">Livraison gratuite sur les commandes de plus de 75 $. Retours sans frais.</div>
+            <div id="phrase2" class="phrase" style="display: none;">Teintes fraîches débloquées. De nouvelles couleurs sont là ! Acheter les hommes l Acheter les femmes</div>
+            <button id="toggleButton" class="toggle-button">
+                <i class="fa fa-chevron-right" aria-hidden="true"></i>
+            </button>
+            </div>
+    </section>
+    <header>
+        <a href="#" class="logo"><span></span></a>
+        <ul class="navbar">
+            <li class="nav-item" id="HOMMES">
+                <a href="#" class="toggleBtn">HOMMES</a>
+                <ul class="HOMMES-menu" id="HOMMESDropdown">
+                    <li><a href="#">Baskets de tous les jours</a></li>
+                    <li><a href="#">Chaussures actives</a></li>
+                    <li><a href="#">Baskets hydrofuges</a></li>
+                    <li><a href="#">Chaussures à enfiler</a></li>
+                    <li><a href="#">Randonnée</a></li>
+                    <li><a href="#">Hauts sommets</a></li>
+                    <li><a href="#">Vente</a></li>
+                    <li><a href="#">Tout magasiner</a></li>
+                    
+                    
+                </ul>
+            <li><a href="#">FEMMES</a></li>
+            <li><a href="#">ENFANTS</a></li>
+            <li><a href="https://www.allbirds.com/collections/socks">CHAUSSETTES</a></li>
+            <li><a  href="#"> <div class="special">VENTE </div></a></li>
+            <li><a href="div class="jsx-2022988330 Icon Icon--ALLBIRDS_LOGO><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 694.3 220.7" class="jsx-652857408 jsx-2022988330"><title class="jsx-652857408"></title><path d="M393.3,60.4c0.4,0,0.9,0,1.3-0.1c6.6-0.7,12.5-6.1,13.5-12.8c1-6.6-3.2-12.1-9.6-12.8c-0.4,0-0.9-0.1-1.3-0.1 c-0.4,0-0.9,0-1.3,0.1c-6.6,0.7-12.5,6.1-13.5,12.8c-0.5,3.5,0.4,6.6,2.3,9C386.7,58.9,389.7,60.4,393.3,60.4z" class="jsx-652857408"></path><path d="M694.3,167.8c0-17.6-8.6-33.7-16.2-47.9c-6.5-12.1-12.3-23.1-10.8-31.3c1.1-5.9,5.3-9.3,11.8-9.7c0,0,0,0,0,0 c0.2,0,0.4-0.1,0.6-0.1c0.3-0.1,0.6-0.3,0.9-0.5c0.3-0.2,0.5-0.5,0.6-0.8c0-0.1,0.1-0.1,0.1-0.2l3.2-8.3c0.3-0.9,0.4-1.5,0.1-2.1 c-0.2-0.4-0.5-0.8-1-1.2c-0.6-0.5-1.6-0.9-2.9-1.3c-1.8-0.6-4.1-1-6.2-1c-9.4,0-20.9,3.1-30.9,28c-0.4,1-19.7,51-20.3,52.6 c-2.4,5.9-7.5,13-18.3,13c-4.7,0-8.5-1.8-10.6-4.8c-0.4-0.6-0.7-1.2-1-1.8c-0.8-2-1.1-4.4-0.6-7c0.2-0.9,0.4-1.9,0.7-2.9 c0.5-1.7,1.2-3.6,2-5.5c7.4-18.9,33.7-86.2,41.8-106.9c1-2.6-0.4-4.7-3.2-4.7h-9.3c-1,0-2.1,0.3-3,0.8c-1.7,0.8-3.1,2.3-3.8,3.9 c-3.6,9.1-8.7,22.3-14.1,36.2c-4.2,10.7-8.5,21.8-12.5,31.9c-1.2-2-2.6-3.9-4.1-5.7c-1.6-1.8-3.3-3.5-5.1-5 c-7.8-6.4-17.7-9.9-28.6-9.9c-13.4,0-26.3,5.4-36.4,14.2c-0.4,0.3-0.7,0.7-1.1,1c-0.3,0.2-0.5,0.5-0.8,0.7 c-6.6,6.2-11.8,13.9-15,22.4c0,0.1-0.1,0.2-0.1,0.4c-0.4,1.1-0.7,2.2-1.1,3.4c-0.6,2.1-1.1,4.2-1.4,6.4c-0.3,2-0.5,4-0.6,6 c-0.2,5.8,0.7,11.5,2.5,16.7c-0.9,1.5-2.1,2.9-3.4,4.2c-3.7,3.5-8.6,5.8-13.7,6.2c-0.5,0-0.9,0-1.4,0c-2,0-3.9-0.4-5.6-1 c-2.1-0.8-3.9-2.1-5.1-3.8c-2.3-3.3-2.3-8.1-0.2-13.6c0.5-1.4,3.7-9.9,6.6-17.5c2.2-5.9,4.2-11.4,4.6-12.5c0.2-0.6,0.6-1.5,0.9-2.6 c0.5-2.1,0.8-5-0.6-8c-0.6-1.2-1.3-2.2-2.1-3.1c-1.6-1.7-3.7-2.7-5.7-3.5c-0.8-0.3-1.6-0.6-2.4-0.8c-1.4-0.4-2.9-1-4.6-1.7 c-0.1,0-0.1-0.1-0.2-0.1c-2.8-1.2-16.3-7.5-16.3-19.5c0-0.3,0-0.6,0-0.8c0-0.1,0-0.2,0-0.3c0-0.1,0-0.3,0-0.4 c-0.2-1.8-0.8-2.9-1.6-3.5c-0.1,0-0.1-0.1-0.2-0.1c0,0,0,0-0.1,0c-0.1-0.1-0.2-0.1-0.3-0.2c0,0,0,0-0.1,0c0,0,0,0,0,0 c0,0,0,0-0.1,0c-0.1,0-0.1-0.1-0.2-0.1c0,0,0,0,0,0c-0.5-0.2-1-0.3-1.6-0.3H437c-1.9,0-4,1-5.4,2.5c-0.6,0.6-1.1,1.4-1.4,2.2 c-2,5.1-4.4,11.2-6.9,17.7c-8.8,22.6-19.3,49.7-22.3,57.4c-0.1,0.3-0.2,0.6-0.3,0.9c-2.4,5.9-7.5,13-18.4,13 c-4.7,0-8.6-1.8-10.6-4.8c-1.2-1.8-1.8-4.1-1.7-6.8c0.1-2.1,0.6-4.4,1.5-6.8c1.9-5,6-15.4,10.3-26.4c4.1-10.5,8.4-21.7,11.4-29.3 c1-2.6-0.4-4.7-3.2-4.7h0h-9.3h-0.9h0c-0.6,0-1.3,0.1-2,0.3c-0.1,0-0.1,0-0.2,0c0,0,0,0,0,0c-2.2,0.6-4.4,2.1-5.7,3.7 c-4.8,5.8-11,10.5-17.8,13.9c-6.8,3.4-14.1,5.6-21.1,6.4c-1-2.6-2.3-5.2-3.9-7.6c-0.1-0.1-0.1-0.2-0.2-0.3c-1-1.5-2-2.9-3.2-4.3 c-8.3-9.6-20.2-14.9-33.7-14.9c-7.2,0-14.2,1.6-20.8,4.4c3.3-8.5,6.6-17.1,9.7-25.2c3.8-9.9,7.4-19.1,10.3-26.7 c0.5-1.2,0.4-2.2,0-3.1c-0.5-1-1.6-1.6-3.1-1.6H288h-9.2h-0.1c-1.1,0-2.3,0.4-3.4,1c-1.3,0.7-2.4,1.7-3,2.9 c-0.1,0.3-0.3,0.5-0.4,0.8C260,58.7,241,107.8,232,131.3c-2.5,6.4-4.2,11-4.9,12.7c-2.4,5.9-7.5,13-18.3,13c-1,0-1.9-0.1-2.7-0.2 c-3.4-0.6-6.3-2.1-7.9-4.6c-0.3-0.5-0.6-1-0.9-1.6c-0.9-2-1.2-4.5-0.7-7.2c0.2-1.3,0.9-3.4,1.7-5.5c1.1-3,2.2-5.9,2.2-5.9 c0,0,4-10.2,9.7-25c0.6-1.6,1.3-3.3,2-5.1c0.1-0.2,0.2-0.4,0.2-0.6c8.8-22.6,20.6-53.1,29.1-75.1c3.4-8.9,6.3-16.4,8.3-21.4 c1-2.6-0.4-4.7-3.2-4.7h-9.3c-2.8,0-5.8,2.1-6.8,4.7c-1.1,2.8-10.9,28.2-21.9,56.6c-14.2,36.6-30.3,78.2-32,82.7 c-0.4,0.9-0.8,1.8-1.3,2.7c-1.5,2.9-3.8,5.7-7,7.7c-2.6,1.6-6,2.6-10.1,2.7c-3.8,0-7-1.1-9.2-3.2c-0.5-0.5-1-1-1.5-1.6 c-1.5-2.3-2.1-5.2-1.5-8.6c0,0,0-0.1,0-0.1c0.5-2.9,4.4-13.1,4.4-13.3c2.5-6.4,5.4-14,8.5-22.1c10.3-26.5,22.9-59.3,31-80 c0.2-0.6,0.3-1.2,0.3-1.8c-0.1-0.8-0.4-1.6-1-2.1c-0.6-0.5-1.4-0.8-2.5-0.8h-9.3c-1,0-2.1,0.3-3.1,0.8c-1.4,0.7-2.6,1.8-3.3,3.1 c-0.1,0.2-0.3,0.5-0.4,0.7c-2.4,6.1-5,12.9-7.8,20.1c-3,7.8-6.2,16.1-9.5,24.4c-12.8,33-25.5,66.1-27.6,71.4 c-0.7,1.7-1.6,3.4-2.7,5.1c-3,4.3-7.8,7.9-15.7,7.9c-2.9,0-5.5-0.7-7.6-1.9c-1.2-0.8-2.3-1.7-3-2.9c-0.5-0.8-0.9-1.6-1.2-2.5 c-0.6-1.8-0.7-3.9-0.3-6.2c0.5-2.8,3.3-10.1,3.8-11.2c0-0.1,0.1-0.2,0.1-0.2l19.1-49.2c1-2.6-0.4-4.7-3.2-4.7h-9.3h0 c-1.7,0-3.5,0.8-4.9,2c0,0,0,0,0,0c-0.1,0-0.1,0.1-0.1,0.1c-0.8,0.7-1.4,1.6-1.7,2.5l-1.9,5l-3,7.8c-0.6-0.9-1.2-1.8-1.8-2.7 c0,0,0,0,0,0c-0.6-0.9-1.3-1.7-2-2.5c0,0,0,0,0,0c-3-3.5-6.6-6.5-10.5-8.8c-6.7-4-14.6-6.1-23.1-6.1c-20.9,0-40.7,13.2-50.4,31.8 c-2.7,5.2-4.6,10.8-5.5,16.6c-2.1,13.6,1.4,26.5,9.8,36.2c2.6,3,5.5,5.6,8.8,7.7c0.6,0.4,1.3,0.8,2,1.2c6.7,3.9,14.5,6,22.9,6h0 c0,0,0,0,0,0c13.5,0,26.6-5.6,36.8-14.5c0,0,0,0,0,0c0.3,0.6,0.7,1.2,1.1,1.8c0.2,0.3,0.5,0.7,0.7,1c0,0.1,0.1,0.1,0.1,0.2 c0.2,0.3,0.5,0.6,0.7,0.9c0.2,0.2,0.4,0.4,0.5,0.6c0.1,0.2,0.3,0.3,0.5,0.5c0.3,0.3,0.6,0.6,0.8,0.9c0.1,0.1,0.2,0.2,0.3,0.3 c0.4,0.3,0.7,0.7,1.1,1c0,0,0,0,0.1,0.1c3.4,2.9,7.7,5.2,12.7,6.4c0.1,0,0.2,0.1,0.3,0.1c0.5,0.1,1,0.2,1.5,0.3 c0.2,0,0.4,0.1,0.7,0.1c0.4,0.1,0.8,0.1,1.3,0.2c0.4,0,0.7,0.1,1.1,0.1c0.3,0,0.6,0.1,1,0.1c0.7,0,1.4,0.1,2.2,0.1c0,0,0,0,0,0h0 c0,0,0,0,0,0c5.2,0,10.1-1,14.6-2.9c1.7-0.7,3.3-1.5,4.8-2.5c0.5-0.3,1-0.6,1.5-1c2-1.4,3.9-2.9,5.6-4.7c0.6,0.8,1.3,1.5,2,2.2 c4.6,4.7,10.8,7.6,17.9,8.5c0.2,0,0.5,0.1,0.7,0.1c0.2,0,0.4,0,0.6,0c0.4,0,0.8,0.1,1.2,0.1c0.2,0,0.4,0,0.5,0c0.4,0,0.9,0,1.3,0 c0,0,0,0,0,0c0,0,0,0,0,0h0c0,0,0,0,0,0h0c10.4,0,19.6-3.9,26.4-10.9c2.6,3.2,5.9,5.8,9.7,7.7c4.3,2.1,9.2,3.2,14.4,3.2 c0,0,0,0,0,0c0,0,0,0,0,0c0,0,0,0,0,0c0,0,0,0,0,0c0,0,0,0,0,0h0h0c2.7,0,5.3-0.3,7.8-0.8c10.9-2.2,19.9-9.1,25.4-19.5 c0.3,0.5,0.6,0.9,0.9,1.4c0.4,0.6,0.8,1.2,1.2,1.8c0.6,0.8,1.2,1.5,1.8,2.3c8.3,9.6,20.2,14.9,33.7,14.9h0h0 c18.4,0,36-10.3,46.5-25.3c4.8-6.9,8.1-14.7,9.4-23c0.3-2.1,0.5-4.2,0.6-6.3c1.8-0.2,3.6-0.5,5.3-0.9c7.7-1.5,14.9-4,21.3-7.4 c-0.2,0.5-0.4,1.1-0.6,1.6c-3,7.9-5.7,14.7-7.1,18.4c-4.4,11.1-3.7,21.9,2,30.3c2.1,3.1,4.8,5.7,7.9,7.7c5,3.2,11,5,17.6,5h0h0 c15.9,0,29-9.1,35.2-24.5c0.8-2,2.4-6.2,4.5-11.7c4.4-11.3,11-28.3,17-43.7c0.5-1.4,1.1-2.8,1.6-4.1c5.2,6.5,12.2,11.4,19,14.3 c0.4,0.2,0.7,0.3,1.1,0.5c0.8,0.3,1.6,0.6,2.3,0.9c-3.4,9.2-8.8,23.8-9.5,25.4c-2.7,6.9-3.5,13.6-2.3,19.7 c0.7,3.8,2.2,7.4,4.3,10.6c1.4,2,3,3.8,4.8,5.4c5,4.3,11.5,6.9,18.7,7.3c0.7,0,1.3,0.1,2,0.1c1.1,0,2.2-0.1,3.3-0.2 c0.2,0,0.5,0,0.7-0.1c0.1,0,0.2,0,0.3,0c4.6-0.5,9-1.9,13.1-3.9c4.2-2.1,8-4.9,11.2-8.2c6.3,6.2,14.4,10.2,23.5,11.7 c2.5,0.4,5.1,0.6,7.8,0.6h0h0c3.4,0,6.8-0.4,10.1-1c9.1-1.8,17.7-6.1,24.9-12c0.7-0.5,1.3-1.1,1.9-1.7c0.4,0.7,0.8,1.4,1.2,2 c3.5,5.1,8.5,8.8,14.4,10.9c0.3,0.1,0.6,0.2,0.8,0.3c0.3,0.1,0.7,0.2,1,0.3c0.4,0.1,0.7,0.2,1.1,0.3c0.3,0.1,0.6,0.1,0.9,0.2 c0.4,0.1,0.7,0.2,1.1,0.2c0.3,0.1,0.6,0.1,0.9,0.2c0.4,0.1,0.7,0.1,1.1,0.1c0.4,0,0.8,0.1,1.2,0.1c0.3,0,0.6,0.1,0.9,0.1 c0.7,0,1.4,0.1,2.2,0.1c0,0,0,0,0,0c0,0,0,0,0,0h0c0,0,0,0,0,0c0,0,0,0,0,0h0h0c15.9,0,29-9.1,35.2-24.5 c0.3-0.9,6.1-15.4,10.8-27.4c1.4-3.6,2.7-7,3.7-9.7c0.5,1.1,1.1,2.3,1.6,3.4c1.9,3.8,3.9,7.7,6,11.7c1.7,3.2,3.5,6.5,5.1,9.8 c4.9,9.8,9,19.8,9,29.6c0,28.9-19.6,34-25.6,34.9c-4,0.6-7,3.7-7.6,7.5c-0.1,0.9-0.2,1.8,0,2.7c0,0.3,0.1,0.6,0.2,0.8 c1,4,4.6,6.9,8.7,6.9c0.2,0,0.4,0,0.7,0c0.2,0,0.4,0,0.7,0c4.7-0.7,9.7-2.2,14.4-4.5C681.8,208.9,694.3,193.7,694.3,167.8 L694.3,167.8L694.3,167.8z M579.1,123.9c-1.7,11.8-9.2,22.2-19,28.1c-0.1,0.1-0.3,0.2-0.4,0.2c0,0-0.1,0-0.1,0.1 c-5.2,3-11,4.7-17,4.7c-2.8,0-5.5-0.4-8-1.2c-4.4-1.4-8.3-3.9-11.2-7.4c-2.9-3.5-4.7-7.8-5.4-12.6c0,0,0-0.1,0-0.1c0,0,0,0,0,0 c-0.4-2.9-0.4-5.9,0.1-9c0.7-4.6,2.2-9,4.5-13c3-5.4,7.2-10,12.1-13.5c5.9-4.1,12.8-6.6,19.9-6.6c4.8,0,9.2,1.1,12.9,3.3 c2.4,1.4,4.5,3.2,6.3,5.3c0.9,1.1,1.7,2.2,2.3,3.4c2.3,4,3.4,8.7,3.4,13.7C579.5,120.8,579.4,122.3,579.1,123.9z M271.6,156.1 c-4.9-1.3-9.1-3.9-12.2-7.8c-4.7-5.7-6.6-13.4-5.4-21.7c0,0,0-0.1,0-0.1c0.3-2.1,0.8-3.9,1.3-5.4c0.7-1.8,1.4-3.7,2.2-5.6 c0,0,0,0,0,0c0.1-0.3,0.3-0.5,0.4-0.8c0.3-0.5,0.5-1,0.8-1.5c0.1-0.2,0.2-0.3,0.3-0.5c2.2-3.7,4.9-7,8-9.8 c6.6-5.8,14.9-9.4,23.5-9.4c3.9,0,7.6,0.8,10.8,2.2c3.3,1.5,6.1,3.6,8.4,6.4c4.7,5.7,6.6,13.4,5.4,21.8 c-2.7,18.2-19.1,33.1-36.6,33.1C276.1,157,273.8,156.7,271.6,156.1z M45.3,157c-7.9,0-14.7-3.1-19.3-8.6c-0.5-0.6-0.9-1.2-1.3-1.8 c-3.8-5.5-5.2-12.5-4.1-20c2.7-18.2,19.2-33.1,36.8-33.1c7.9,0,14.7,3.1,19.3,8.6c4.7,5.7,6.7,13.4,5.4,21.8 c-0.2,1.4-0.5,2.8-0.9,4.2C76.8,144.3,61.5,157,45.3,157z" class="jsx-652857408"></path></svg></div></a></li>
+            <li><a href="#" class="durabilite">durabilité</a></li>
+            <li><a href="https://www.allbirds.com/pages/rerun">REDIFFUSION</a></li>
+
+           
+
+        </div>
+
+        
+                </div>
+                  
+    <nav class="nav-icons">
+        
+        <a href="https://www.allbirds.com/pages/search" class="icon-link">
+            <span class="icon"><i class="fa fa-search" aria-label="true" title="search"></i></span>
+        </a>
+
+        
+        <a href="https://www.allbirds.com/account/login?return_url=%2Faccount" class="icon-link">
+            <span class="icon"><i class="fa fa-user" aria-hidden="true" title="user"></i></span>
+        </a>
+
+        
+        <a href="https://www.allbirds.com/pages/help" class="icon-link">
+            <span class="icon"><i class="fa fa-question-circle" aria-hidden="true" title="help icon"></i></span>
+        </a>
+
+        
+        <a href="#" class="icon-link" onclick="toggleCart()">
+            <span class="icon"><i class="fa fa-cart-plus" aria-hidden="true"></i></span>
+        </a>
+    </nav>
+
+    
+    <div id="cartContainer" class="cart-container" style="display: none;">
+        
+        <button class="close-btn" onclick="closeCart()"><i class="fa fa-times" aria-label=""></i></button>
+        
+          <div class="cart-icon"><i class="fa fa-shopping-cart" aria-hidden="true"></i></div>
+
+        
+        <p>Vous êtes à 75 $ de la livraison gratuite !</p>
+
+        
+        <div class="progress-bar">
+            <div class="progress-bar-fill" style="width: 60%;"></div>
+        </div>
+
+        
+        <p>Votre panier est vide</p>
+
+        
+        <div class="buttons">
+            <a href="https://www.allbirds.com/collections/mens" class="button">MAGASINEZ POUR HOMMES</a>
+            <a href="https://www.allbirds.com/collections/womens" class="button">ACHETEZ DES PRODUITS POUR FEMMES</a>
+            <a href="https://www.allbirds.com/collections/trino-socks" class="button">ACHETER DES CHAUSSETTES</a>
+            <a href="https://www.allbirds.com/collections/sale-mens-shoes" class="button">MAGASINEZ LES SOLDES POUR HOMMES</a>
+            <a href="https://www.allbirds.com/collections/sale-womens-shoes" class="button">MAGASINEZ LES SOLDES POUR FEMMES </a>
+           
+        </div>
+    
+                </div>
+                </div>
+            </div>
+                
+              
+                
+                
+                
+
+
+                
+                    
+                       
+            
+        
+      
+        
+              
+
+        
+    </header>
+    <section id="section_one">
+        <div class="img_section_one">
+            <div class="text_section_one">
+            <h1>Vos artistes de l'évasion</h1>
+            <p>Des chaussures respirantes et confortables qui peuvent vous emmener presque partout.</p>
+            <a href="https://www.allbirds.com/collections/mens" class="btn1">ACHETER DES HOMMES</a>
+            <a href="https://www.allbirds.com/collections/womens" class="btn2">BOUTIQUE FEMMES</a>
+            
+            <div class="MiniNavigation">
+                <h4 class="MiniNavigation__heading">En </h4>
+                <h5 class="MiniNavigation__heading">VEDETTE </h5>
+                
+                <ul class="MiniNavigation__list">
+                  <li class="MiniNavigation__list-item">
+                    <a href="https://www.allbirds.com/collections/mens" aria-label="Chaussures pour hommes" class="MiniNavigation__link">Chaussures pour hommes</a>
+                  </li>
+                  <li class="MiniNavigation__list-item">
+                    <a href="https://www.allbirds.com/collections/womens" aria-label="Chaussures de femme" class="MiniNavigation__link">Chaussures de femme</a>
+                  </li>
+                  <li class="MiniNavigation__list-item">
+                    <a href="https://www.allbirds.com/collections/womens-new-arrivals" aria-label="Nouvelles Arrivées" class="MiniNavigation__link">Nouvelles Arrivées</a>
+                  </li>
+                </ul>
+              </div>
+              
+           
+               
+              
+            </div>
+            </div>
+        </div>  
+        </div>
+        
+                
+            
+           
+
+        </div>
+    </section>
+    <section id="section_two">
+        <div class="text_section_two">
+            <h1>Nos favoris</h1>
+            
+         
+        </div>
+        <div class="buttons-container">
+        
+     
+            <button class="favorite-button" id="everyday">Pour tous les jours</button>
+                    <button class="favorite-button" id="travel">Pour voyager</button>
+                    <button class="favorite-button" id="activity">Pour l'activité</button>
+                </div>
+                
+               
+                <div class="buttons-container-everyday">
+                <div class="image-wrapper-one">
+                    <img src="https://cdn.allbirds.com/image/upload/f_auto,q_auto,w_467,b_rgb:f5f5f5/cms/49OwJyYkvaPuT2UBaVPtKU/d4b7d2a5a5bf018faee3b50f019e07ce/24Q2-TreeRunnerGO-Site-Category_Category_Card-1110x1110-02.jpg" alt="Image 1">
+                    <div class="overlay">
+                        <a href="https://www.allbirds.com/products/mens-tree-runner-go"   class="hover-button1">ACHETER DES HOMMES</button></a>
+                        <a href="https://www.allbirds.com/products/womens-tree-runner-go" class="hover-button2">BOUTIQUE FEMME</button></a>
+                    </div>
+                    <div class="image-content-one">
+                        <h3>Coureur d'arbre aller</h3>
+                        <div class="text-content">
+                        <img src="https://cdn.allbirds.com/image/upload/f_auto,q_auto,w_60/cms/36yzlsOoiqElrog4oYvkV9/070f3b2a87f2679218299e58cdc399ef/Tree.jpg" alt="Logo1 ">
+                        <p>Breezy réinventée, sneaker de tous les jours</p>
+                    </div>
+                    </div>
+                </div>
+        
+                
+                <div class="image-wrapper-two">
+                    <img src="https://cdn.allbirds.com/image/upload/f_auto,q_auto,w_467,b_rgb:f5f5f5/cms/1CIlkD6Ny3JAhomX939oAt/d78d322e6999620e57b0482486549d7c/24Q2-Core-Site-Category_Category_Card_Tree_Breezer_1110x1110.jpg" alt="Image 2">
+                    
+                    
+                    <div class="overlay-two">
+                        <a href="https://www.allbirds.com/products/womens-tree-breezers" class="hover-button">ACHETEZ MAINTENANT</button></a>
+                    </div>
+                    <div class="image-content-two">
+                        
+                    
+                        <h3>Brise-arbre</h3>
+                        <div class="text-content-two">
+                        <img src="https://cdn.allbirds.com/image/upload/f_auto,q_auto,w_60/cms/36yzlsOoiqElrog4oYvkV9/070f3b2a87f2679218299e58cdc399ef/Tree.jpg" alt="Logo 2">
+                        <p>Plat léger</p>
+                    </div>
+                    </div>
+                </div>
+        
+                
+                <div class="image-wrapper-three">
+                    <img src="https://cdn.allbirds.com/image/upload/f_auto,q_auto,w_467,b_rgb:f5f5f5/cms/iR2LEYOAk773JeuQk1dk4/4e784c618a3c5bc6a24db26d112f967b/24Q2-Core-Site-Category_Category_Card_TR_1110x1110.jpg" alt="Image 3">
+                    <div class="overlay-three">
+                        <a href="https://www.allbirds.com/products/mens-tree-runners" class="hover-button3">ACHETER DES HOMMES</button></a>
+                        <a href="https://www.allbirds.com/products/womens-tree-runners" class="hover-button4">BOUTIQUE FEMME</button></a>
+                    </div>
+                    <div class="image-content-three">
+                        <h3>Coureur d'arbre</h3>
+
+                        <div class="text-content-three">
+                        
+                        <img src="https://cdn.allbirds.com/image/upload/f_auto,q_auto,w_60/cms/36yzlsOoiqElrog4oYvkV9/070f3b2a87f2679218299e58cdc399ef/Tree.jpg" alt="Logo 3">
+                        <p>Baskets légères et quotidiennes</p>
+                    </div>
+                        
+                        
+        
+                    </div>
+                    
+                 
+
+
+                </div>
+                
+            
+    </section>
+    <section id="section_three">
+    <div class="image-container">
+        <img src="https://cdn.allbirds.com/image/upload/f_auto,q_auto,w_1536/cms/6CPLSGMsij0ZSxaVCWRKIu/40549f8cc45cbd064d7503d51bc9bc53/24Q2-Summer-Color-Flow-1-Site-Secondary_Hero-1-Desktop-3840___2346.jpg" alt="">
+        <div class="Texte-content">
+          <h2>Teintes d'été débloquées</h2>
+          <p>De toutes nouvelles couleurs inspirées du magnifique volcan Dallol d'Éthiopie.</p>
+          <div class="buttons-container">
+            <a href="https://www.allbirds.com/collections/mens-new-arrivals" class="btn3">ACHETER DES HOMMES</a>
+          <a href="https://www.allbirds.com/collections/womens-new-arrivals" class="btn4">BOUTIQUE FEMMES</a>
+        </div>
+         
+        </div>
+      </div>
+      
+
+
+        </div>
+      </section>
+      <section id="section_four">
+        <div class="text_section_four">
+            <h4>Nouvelles Arrivées</h4>
+            <div class="container">
+                
+                <div class="container">
+                    
+                    <div id="photoCarousel" class="carousel slide" data-bs-ride="carousel">
+                        
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <div class="row">
+                                    <div class="col-md-4 photo-box">
+                                        <img src="https://cdn.allbirds.com/image/fetch/q_auto,f_auto/w_710,f_auto,q_auto/https://www.allbirds.com/cdn/shop/files/A10609_S24Q2_Tree_Runner_GO_Natural_Black_Blizzard_1_ebe36174-8967-4922-9ee5-3b99e9ebefa6.png?v=1713370649" alt="Photo 1">
+                                        <div class="Texte-content">
+                                            <h2>Tree Runner Go pour femmes</h2>
+                                            <p>couleur classique,noir naturel</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 photo-box">
+                                        <img src="https://cdn.allbirds.com/image/fetch/q_auto,f_auto/w_710,f_auto,q_auto/https://www.allbirds.com/cdn/shop/files/A10610_S24Q2_Tree_Runner_GO_Medium_Grey_Blizzard_SVP_65fd475d-4277-4efa-bb7f-313061404b8e.png?v=1713370685" alt="Photo 2">
+                                        <div class="Texte-content">
+                                            <h2>Tree Runner Go pour femmes</h2>
+                                            <p>couleur classique,gris moyen</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 photo-box">
+                            
+                                        <img src="https://cdn.allbirds.com/image/fetch/q_auto,f_auto/w_710,f_auto,q_auto/https://www.allbirds.com/cdn/shop/files/A10645_S24Q2_Tree_Runner_GO_Blizzard_Blizzard_SVP_5119ba17-27c6-442b-bcc8-f39918bd888c.png?v=1713370645" alt="Photo 3">
+                                        <div class="Texte-content">
+                                            <h2>Tree Runner Go pour femmes</h2>
+                                            <p>couleur classique,Blizzard</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="carousel-item">
+                                <div class="row">
+                                    <div class="col-md-4 photo-box">
+                                        <img src="https://cdn.allbirds.com/image/fetch/q_auto,f_auto/w_710,f_auto,q_auto/https://www.allbirds.com/cdn/shop/files/A10614_S24Q2_Tree_Runner_GO_Deep_Navy_Blizzard_ALT_2_e79ade6e-bcf2-498d-859d-ad5dae4355c9.png?v=1713370676" alt="Photo 4">
+                                        <div class="Texte-content">
+                                            <h2>Tree Runner Go pour femmes</h2>
+                                            <p>couleur classique,noir naturel</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 photo-box">
+                                        <img src="https://cdn.allbirds.com/image/fetch/q_auto,f_auto/w_710,f_auto,q_auto/https://www.allbirds.com/cdn/shop/files/A10788_Tree_Runner_Mens_Rugged_Beige_Natural_White_1_922b7a65-d253-4b10-bbab-0e2478bd252f.png?v=1712006734" alt="Photo 5">
+                                        <div class="Texte-content">
+                                            <h2>Tree Runner Go pour femmes</h2>
+                                            <p>couleur classique,Blue marine profond</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 photo-box">
+                                        <img src="https://cdn.allbirds.com/image/fetch/q_auto,f_auto/w_710,f_auto,q_auto/https://www.allbirds.com/cdn/shop/files/A10658_Tree_Runner_Mens_Light_Grey_Light_Grey_4_821f5e5e-4378-4484-847c-58e73d2eb40b.png?v=1712006734" alt="Photo 6">
+                                        <h2>Tree Runner Go pour femmes</h2>
+                                        <p>couleur en limitée,beige robuste</p>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            
+                        </div>
+            
+                        
+                        <a class="carousel-control-prev" href="#photoCarousel" role="button" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Précédent</span>
+                        </a>
+                        <a class="carousel-control-next" href="#photoCarousel" role="button" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Suivant</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+        </section>
+
+        
+            <section id="section-five">
+                <div class="image-container2">
+                    <img src="https://cdn.allbirds.com/image/upload/f_auto,q_auto,w_1536/cms/4AUoQPmkguQ7SZIR4ytoIA/038eafb8fe7ebb87cd67c2ea425df909/24Q2_Core_Site_Secondary_Hero_Desktop_Active_3841___2346.jpg" alt=""></a>
+                    <div class="Texte-content">
+                      <h2>Du cardio au patio</h2>
+                      <p>Toutes les chaussures actives rebondissantes dont vous avez besoin pour rester</p>
+                      <p>en phase avec la saison.</p>
+                      <div class="buttons-container">
+                        <a href="https://www.allbirds.com/collections/mens-running-shoes" class="btn3">ACHETER DES HOMMES</a>
+                      <a href="https://www.allbirds.com/collections/womens-running-shoes" class="btn4">BOUTIQUE FEMMES</a>
+                    </div>
+
+
+        </section id="section-six">
+        <div class="image-container-six">
+            <h1>Achetez les collections</h1>
+            <div class="container1">
+
+                
+                <div id="photoCarousel1" class="carousel slide" data-bs-ride="carousel1">
+
+                    
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="row">
+                                <div class="col-md-4 photo-box">
+                                    <a href="https://www.allbirds.com/collections/mens-new-arrivals">
+                                        <img src="https://cdn.allbirds.com/image/upload/f_auto,q_auto,w_1110/cms/7MhMG8JQveDElDwLLUVVXZ/f6daf98c8e04f9f6d82ea77944625414/24Q2-TreeRunnerGO-Site-Collection_Category_Card-1110x1110-02.jpg" alt="Photo 1"></a>
+                                        
+                                            <div class="Texte-content">
+                                            <h2>Nouvelles Arrivées</h2>
+                                            <p>Les derniers styles et couleurs en édition limitée que vous ne pouvez trouver qu'ici (tant qu'ils durent, bien sûr.)</p></div></a>
+                                        
+                                </div>
+                                <div class="col-md-4 photo-box">
+                                    <a href="https://www.allbirds.com/collections/best-for-traveling-womens"><img src="https://cdn.allbirds.com/image/upload/f_auto,q_auto,w_1110/cms/3kTfmoSBOImDFaLguIjxY3/fded26404a52333094305272e7a31189/24Q2-Core-Site-Collection_Category_Card_TD2_Travel_1110x1110-01.jpg" alt="Photo 2"></a>
+                                        <div class="Texte-content">
+                                            <h2>Preparer-vous a voyager</h2>
+                                            <p>un style polyvalent et design compact sont sysnonymes de chaussures prete emporter.</p>
+
+                                        </div> 
+                                </div>
+                                <div class="col-md-4 photo-box">
+                                    <a href="https://www.allbirds.com/collections/best-for-warm-weather-womens"><img src="https://cdn.allbirds.com/image/upload/f_auto,q_auto,w_1110/cms/1h8ga1Xv3xoC4syOxFDE4M/5f8ad83065dcb5d7e53710afe1610e6f/24Q2-Core-Site-Collection_Category_Card_Tree_Lounger_Summer_1110x1110-01.jpg" alt="Photo 3"></a>
+                                        <div class="Texte-content">
+                                            <h2>Des chaussures plus legeres pour les journees plus chaudes</h2>
+                                            <p>La sauce secrete pour passer un bon ete? chaussures legeres et aeres fabriquees avec notre fibre d'aucalyptus innovante.</p>
+
+                                        </div>
+
+
+                                    
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="carousel-item">
+                            <div class="row">
+                                <div class="col-md-4 photo-box">
+                                    <a href="https://www.allbirds.com/collections/womens-superlight-collection"><img src="https://cdn.allbirds.com/image/upload/f_auto,q_auto,w_1110/cms/1h8ga1Xv3xoC4syOxFDE4M/5f8ad83065dcb5d7e53710afe1610e6f/24Q2-Core-Site-Collection_Category_Card_Tree_Lounger_Summer_1110x1110-01.jpg" alt="Photo 4"></a>
+                                        <div class="Texte-content">
+                                            <h2>La collection superlight</h2>
+                                            <p>On se sent a peine la.ajustement leger comme l'air</p>
+
+
+                                        </div>
+                                </div>
+                                <div class="col-md-4 photo-box">
+                                    <a href="https://www.allbirds.com/collections/womens-superlight-collection"><img src="https://cdn.allbirds.com/image/upload/f_auto,q_auto,w_1110/cms/2zlP7ZFxN50lrW8C7QNzDZ/dffc061ccb86dbd57653db8f641d8b50/24Q1-Spring-Q1-Site-Nav_Tile_Mobile-1125x1542-3.jpg" alt="Photo 5"></a>
+                                        <div class="Texte-content">
+                                            <h2>Meilleure ventes</h2>
+                                            <p>Nous devons demande autour de nous et il s'avere que ces styles ont une base de fans assez devouee</p>
+                                        </div>
+
+                                    
+                                </div>
+                                <div class="col-md-4 photo-box">
+                                    <a href="https://www.allbirds.com/collections/womens-best-sellers">
+                                        <img src="https://cdn.allbirds.com/image/upload/f_auto,q_auto,w_1110/cms/mmXmUEjVjtGr1K0l40rTZ/86e34480859ab958d97169f04ec40e6e/SP23_Lookbook_Collection_Carousel_Card_Bestsellers-min.jpg" alt="Photo 6"></a>
+                                        <div class="Texte-content">
+                                            <h2>Meilleur ventes</h2>
+                                            <p>Nous devons demande autour de nous et il s'avere que ces styles ont une base de fans assez devouee</p>
+
+
+                                     
+                                </div> 
+                                </div>
+                            </div>
+                        </div>
+                        
+                        
+                    </div>
+                    
+        
+                    
+                 
+<a class="carousel-control-prev1" href="#photoCarousel1" role="button" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon1" aria-hidden="true"></span>
+    <span class="visually-hidden">Précédent</span>
+</a>
+<a class="carousel-control-next1" href="#photoCarousel1" role="button" data-bs-slide="next">
+    <span class="carousel-control-next-icon1" aria-hidden="true"></span>
+    <span class="visually-hidden">Suivant</span>
+</a>
+
+
+                   
+                    </div>      
+            </div>
+
+        </div>
+
+        <section>
+
+
+
+
+        </section>
+        <section id="section-seven">
+            <div class="image-container3">
+                <img src="https://cdn.allbirds.com/image/upload/f_auto,q_auto,w_1440/cms/24QzGcRbuw1bsB1FZTH2VK/45c841f4209229e7924df02160de2536/Secondary_Homepage_Desktop_-_Sustainability.jpg" alt="">
+                <div class="Text-content">
+                  <h2>Plus de mises à jour sur moins de carbone</h2>
+                  <p>La réduction de l'empreinte carbone de nos produits est au cœur de tout ce que</p>
+                   <p>  nous faisons. Et nous avons une bonne nouvelle : nous continuons à progresser.</p>
+                  <p> Découvrez nos progrès depuis 2022 dans notre dernier rapport sur l’état des vols.</p>
+                  <a href="https://www.allbirds.com/pages/sustainable-practices" class="btn6">NOTRE STRATÉGIE DE DÉVELOPPEMENT DURABLE</a>
+                </div>
+                  
+
+
+
+            </div>
+
+
+        </section>
+        <section id="section-eighth">
+            <h1>Initiatives de développement durable</h1>
+            <h1>Allbirds</h1>
+            <div class="image-container">
+                <div class="image-box">
+                    <a href="https://www.allbirds.com/pages/rerun" class="image-link">
+                        <img src="https://cdn.allbirds.com/image/upload/f_auto,q_auto,w_1110/cms/6IGQFjTkDK5wRwuJoV3hFl/2e22387590a6615d8b606ee488b3b117/ReRun-Site-StoryCard.jpg" alt="Image 1" class="image">
+                        <div class="text-container">
+                            <h2 class="title">Allbirds ReRun™</h2>
+                            <p class="description">Allbirds ReRun™ est une place de marché où vous pouvez acheter des produits légèrement imparfaits et légèrement utilisés, prolongeant leur durée de vie et réduisant notre impact sur la planète.</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="image-box">
+                    <a href="https://www.allbirds.com/pages/sustainable-practices" class="image-link">
+                        <img src="https://cdn.allbirds.com/image/upload/f_auto,q_auto,w_1110/cms/euGXEZEuEOkRac275vLDI/bbba76a2a43f77119ae3601a5883a0ef/23Q2-Earth_Day-Site-Story-Carousel_Card-1110x1110.jpg" alt="Image 2" class="image">
+                        <div class="text-container">
+                            <h2 class="title">Rapport sur l'etat des vols 2022</h2>
+                            <p class="description">Notre version d'un rapport de développement durable est ici, mettant en évidence nos progrès dans divers domaines en 2022.</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="image-box">
+                    <a href="https://www.allbirds.com/pages/our-story" class="image-link">
+                        <img src="https://cdn.allbirds.com/image/upload/f_auto,q_auto,w_1110/cms/3Wye1ioT4jrvuPqLuA5EcH/66d1ee12d90096bd0b3e9df74cac9183/Our_Story.jpg" alt="Image 3" class="image">
+                        <div class="text-container">
+                            <h2 class="title">Nous sommes certifiés ACORP.</h2>
+                            <p class="description">Dès le début, l'environnement a été ici partie prenante.</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </section>
+        
+            </div>
+            
+                    </div>
+                </div>
+            </div>
+   
+
+        
+       
+
+        </section>
+        <section id="section-nine">
+            <div class="text-nine">
+                <h1>Vous voulez les premiers dibs ?</h1>
+                <p>Rejoignez notre liste de diffusion et soyez le premier informé des nouveaux produits en édition limitée, des innovations matérielles et de nombreuses autres mises à jour amusantes.</p>
+                <div class="signup-container">
+                    <h2>Inscrivez-vous à notre newsletter</h2>
+                    <form id="signup-form" action="#" method="POST">
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" placeholder="Entrer votre adresse email" required> <button type="submit">S'inscrire</button>
+                            
+                        </div>
+                    </form>
+                </div>
+                <p2>
+                    Remarque : Vous pouvez vous désinscrire à tout moment. Consultez notre  politique de confidentialité  et  nos conditions .</p2>
+
+
+
+            </div>
+
+
+        </section>
+        <section id="section-ten">
+            <h1>L'approche Allbirds</h1>
+            <div class="paragraph-container">
+                <div class="content">
+                    
+                    <div class="paragraph1">
+                        <h3>Confort à porter toute la journée</h3>
+                               <p>Légères, rebondissantes et extrêmement</p>
+                             <p> confortables, les chaussures Allbirds rendent</p>
+                              <p>toute sortie sans effort. Glissez-les, lacets ou </p>
+                             <p> enfilez-les et profitez du soutien confortable.</p>
+
+                    </div>
+            
+                    
+                    <div class="paragraph2">
+                        <h3>La durabilité à chaque étape</h3>
+                        <p>Des matériaux au transport, nous nous efforçons de</p>
+                            <p> réduire notre empreinte carbone à près de zéro. Se tenir</p>
+                             <p> responsable et s'efforcer d'atteindre les objectifs</p> 
+                              <p>climatiques n'est pas un objectif sur 30 ans, c'est</p>
+                              <p> maintenant.</p>
+
+                            
+                    </div>
+            
+                    
+                    <div class="paragraph3">
+                        <h3>Matériaux de la Terre</h3>
+                        <p>Nous remplaçons les produits synthétiques à base de pétrole par des</p>
+                            <p> alternatives naturelles chaque fois que nous le pouvons. Comme utiliser</p>
+                             <p> de la laine, des fibres d’arbres et de la canne à sucre. Ils sont doux,</p>
+                             <p>  respirants et meilleurs pour la planète : gagnez, gagnez, gagnez.</p>
+
+                            
+                    </div>
+            </div>
+
+
+        </section>
+      
+
+
+
+
+
+
+
+      
+      
+
+
+   
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <footer>
+        <!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <title>footer</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    
+    <footer>
+        <div class="footer-container">
+            
+            <div class="footer-section">
+                <h3>Aide</h3>
+                <p>Téléphone : 1-888-963-8944</p>
+                <p>Texte : 1-814-251-9966 (Texte)</p>
+                <p><a href="mailto:aide@allbirds.com">aide@allbirds.com</a></p>
+                <ul>
+                    <li><a href="https://www.allbirds.com/pages/returns-exchanges">Retours/Échanges</a></li>
+                    <li><a href="https://www.allbirds.com/pages/help">FAQ/Contactez-nous</a></li>
+                    <li><a href="https://www.allbirds.com/pages/afterpay">Après-paiement</a></li>
+                </ul>
+            </div>
+    
+                
+            <div class="footer-section">
+                <h3>Boutique</h3>
+                <ul>
+                    <li><a href="https://www.allbirds.com/collections/mens">Chaussures pour hommes</a></li>
+                    <li><a href="https://www.allbirds.com/collections/womens">Chaussures de femme</a></li>
+                    <li><a href="https://www.allbirds.com/collections/mens-apparel">Vêtements pour hommes</a></li>
+                    <li><a href="https://www.allbirds.com/collections/womens-apparel">Vêtements pour femmes</a></li>
+                    <li><a href="https://www.allbirds.com/collections/trino-socks">Chaussettes</a></li>
+                    <li><a href="https://www.allbirds.com/pages/style-quiz">Recherche de chaussures</a></li>
+                    <li><a href="https://www.allbirds.com/collections/gift-cards">Cartes cadeaux</a></li>
+                    <li><a href="https://www.allbirds.com/pages/refer-a-friend">Référez un ami</a></li>
+                    <li><a href="https://apps.apple.com/us/app/allbirds/id1495911336?%24web_only=true&_branch_match_id=1313662210160742022&utm_source=Website&utm_campaign=Website+Footer&utm_medium=Website+Footer&_branch_referrer=H4sIAAAAAAAAA8soKSkottLXT8zJScosSinWSywo0MvJzMvWT9V3LE%2F1z3A3zCxJSgIAyzbFKicAAAA%3D">Téléchargez notre application</a></li>
+                </ul>
+            </div>
+    
+                
+            <div class="footer-section">
+                <h3>Entreprise</h3>
+                <ul>
+                    <li><a href="https://stores.allbirds.com/locations?_gl=1*8axxd*_ga*NzI4MzQ4OTkuMTcwODUyNDIwOA..*_ga_KJL05B1DJZ*MTcxNDQzMjE5Ni4xMTguMS4xNzE0NDMyNTE4LjAuMC4w">Nos magasins</a></li>
+                    <li><a href="https://www.allbirds.com/pages/our-story">Notre histoire</a></li>
+                    <li><a href="https://www.allbirds.com/pages/our-materials-wool">Nos matériaux</a></li>
+                    <li><a href="https://www.allbirds.com/pages/sustainable-practices">Durabilité</a></li>
+                    <li><a href="https://ir.allbirds.com/?_gl=1*1417ony*_ga*NzI4MzQ4OTkuMTcwODUyNDIwOA..*_ga_KJL05B1DJZ*MTcxNDQzMjE5Ni4xMTguMS4xNzE0NDMyNzI1LjAuMC4w">Investisseurs</a></li>
+                    <li><a href="https://www.allbirds.com/pages/shoe-care">Entretien des chaussures</a></li>
+                    <li><a href="https://www.allbirds.com/pages/partnerships">Partenariats</a></li>
+                    <li><a href="https://www.allbirds.com/pages/affiliates">Affiliés</a></li>
+                    <li><a href="https://www.allbirds.com/pages/bulk-ordering">Commandes en vrac</a></li>
+                    <li><a href="https://www.allbirds.com/pages/careers">Carrières</a></li>
+                    <li><a href="https://www.allbirds.com/pages/press?page=1">Presse</a></li>
+                    <li><a href="#">Programme de divulgation responsable Allbirds</a></li>
+                    <li><a href="https://www.allbirds.com/pages/press?page=1">Loi californienne sur la transparence</a></li>
+                    <li><a href="https://www.allbirds.com/pages/press?page=1">Offres communautaires</a></li>
+                </ul>
+            </div>
+    
+                
+            <div class="footer-section-troupeau">
+                <h5>Suivez le troupeau</h5>
+                <p>Offres exclusives, informations sur les nouveautés et observations d'Allbirds dans la nature. Oh, nous avons aussi de jolis moutons. #tous les oiseaux</p>
+                <div class="social-icons">
+                    <a href="https://www.instagram.com/allbirds"><img src="https://cdn.allbirds.com/image/upload/q_auto/cms/7ALf4NFNH4VStmrXU0qSKK/0aa03178ac1a2dc0789703f6dac6e7ef/social-instagram.svg" alt="Instagram"></a>
+                    <a href="https://www.facebook.com/weareallbirds"><img src="https://cdn.allbirds.com/image/upload/q_auto/cms/55ZLXdMQu728huA78Qlfkb/faa7706d3b83f77d73026e3cfdaca7d0/social-facebook.svg" alt="Facebook"></a>
+                </div>
+            </div>
+            
+            <div class="footer-section-flag">
+                <h3>Drapeaux</h3>
+                <div class="section-flag">
+                    <span class="flag-icon">🇺🇸</span> États-Unis <br>
+                    <span class="flag-icon">🇨🇦</span> Canada <br>
+                    <span class="flag-icon">🇳🇿</span> Nouvelle-Zélande <br>
+                    <span class="flag-icon">🇦🇺</span> Australie <br>
+                    <span class="flag-icon">🇬🇧</span> Royaume-Uni <br>
+                    <span class="flag-icon">🇨🇳</span> Chine <br>
+                    <span class="flag-icon">🇪🇺</span> Union européenne <br>
+                    <span class="flag-icon">🇯🇵</span> Japon <br>
+                    <span class="flag-icon">🇰🇷</span> Corée du Sud
+                </div>
+            </div>
+    
+            
+            <div class="footer-bottom">
+                <p>&copy; 2024 Allbirds, Inc. Tous droits réservés. <a href="#">Conditions</a>, <a href="#">Confidentialité</a>, et <a href="#">Accessibilité</a></p>
+                <p><a href="#">Ne vendez pas mes informations personnelles</a></p>
+            </div>
+        </div>
+    </footer>
+    
+
+</body>
+
+</html>
+
+
+
+       
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
